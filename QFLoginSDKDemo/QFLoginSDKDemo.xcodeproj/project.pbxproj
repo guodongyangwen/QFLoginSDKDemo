@@ -347,7 +347,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = QFLoginSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gdy.QFLoginSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,7 +365,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = QFLoginSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gdy.QFLoginSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
