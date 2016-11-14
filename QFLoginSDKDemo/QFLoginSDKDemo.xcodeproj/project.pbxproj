@@ -14,7 +14,6 @@
 		060542391DD9E08400D3F138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060542361DD9E08300D3F138 /* Main.storyboard */; };
 		0605423A1DD9E08400D3F138 /* QFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060542381DD9E08300D3F138 /* QFViewController.m */; };
 		0605423D1DD9E0CC00D3F138 /* QFLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0605423C1DD9E0CC00D3F138 /* QFLoginSDK.framework */; };
-		060542411DD9E25C00D3F138 /* QFLoginSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 060542401DD9E25C00D3F138 /* QFLoginSDK.podspec */; };
 		0DD0FDE0F15E627B7AD2B94F /* libPods-QFLoginSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0941AD8CFD4B86E26C4563 /* libPods-QFLoginSDKDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		060542371DD9E08300D3F138 /* QFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFViewController.h; sourceTree = "<group>"; };
 		060542381DD9E08300D3F138 /* QFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFViewController.m; sourceTree = "<group>"; };
 		0605423C1DD9E0CC00D3F138 /* QFLoginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QFLoginSDK.framework; sourceTree = "<group>"; };
-		060542401DD9E25C00D3F138 /* QFLoginSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QFLoginSDK.podspec; sourceTree = "<group>"; };
 		0FE3A0A6A056BB1FEFCBBDAF /* Pods-QFLoginSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFLoginSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFLoginSDKDemo/Pods-QFLoginSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6D0941AD8CFD4B86E26C4563 /* libPods-QFLoginSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFLoginSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B743E92C715AC4B5FAC8C41C /* Pods-QFLoginSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFLoginSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFLoginSDKDemo/Pods-QFLoginSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 		0605421E1DD9E04800D3F138 /* QFLoginSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				060542401DD9E25C00D3F138 /* QFLoginSDK.podspec */,
 				060542221DD9E04800D3F138 /* AppDelegate.h */,
 				060542231DD9E04800D3F138 /* AppDelegate.m */,
 				060542361DD9E08300D3F138 /* Main.storyboard */,
@@ -171,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060542411DD9E25C00D3F138 /* QFLoginSDK.podspec in Resources */,
 				060542391DD9E08400D3F138 /* Main.storyboard in Resources */,
 				0605422F1DD9E04800D3F138 /* LaunchScreen.storyboard in Resources */,
 				0605422C1DD9E04800D3F138 /* Assets.xcassets in Resources */,
