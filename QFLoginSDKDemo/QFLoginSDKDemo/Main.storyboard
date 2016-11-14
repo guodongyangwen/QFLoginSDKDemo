@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="QFViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="13141152232" borderStyle="roundedRect" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mh8-x4-U4j">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="frx-AI-KPV"/>
+                                    <constraint firstAttribute="height" constant="30" id="i4T-dE-jVu"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="111111" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UGU-ee-vbI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QvS-Ae-oQm"/>
+                                    <constraint firstAttribute="width" constant="200" id="peM-5F-i6x"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMJ-ta-aMh">
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.60784313729999995" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EO6-jJ-1ES"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginBtnClick:" destination="whP-gf-Uak" eventType="touchUpInside" id="EAv-gc-OBv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mh8-x4-U4j" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="1YS-0r-Uh8"/>
+                            <constraint firstItem="mh8-x4-U4j" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="-150" id="24q-u4-B9b"/>
+                            <constraint firstItem="UGU-ee-vbI" firstAttribute="top" secondItem="mh8-x4-U4j" secondAttribute="bottom" constant="30" id="K2U-CI-muz"/>
+                            <constraint firstItem="aMJ-ta-aMh" firstAttribute="centerX" secondItem="UGU-ee-vbI" secondAttribute="centerX" id="N7J-Ky-KKP"/>
+                            <constraint firstItem="aMJ-ta-aMh" firstAttribute="top" secondItem="UGU-ee-vbI" secondAttribute="bottom" constant="30" id="U9f-9H-J02"/>
+                            <constraint firstItem="UGU-ee-vbI" firstAttribute="centerX" secondItem="mh8-x4-U4j" secondAttribute="centerX" id="p4K-eV-EAk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_pwdTF" destination="UGU-ee-vbI" id="XRY-wm-CeW"/>
+                        <outlet property="_usernameTF" destination="mh8-x4-U4j" id="n9q-WC-dke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>
