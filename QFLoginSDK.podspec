@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/QTPaySDK'
 
   s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.ios.deployment_target = "7.0"
+s.requires_arc = true
 
   s.vendored_frameworks = "**/*.framework"
   s.preserve_paths = "**/*.framework"
