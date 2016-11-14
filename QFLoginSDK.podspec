@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "gdy" => "guodongyang@qfpay.com" }
-  s.source           = { :git => "https://github.com/guodongyangwen/QFLoginSDKDemo.git", :tag => 0.0.1 }
+  s.source           = { :git => "https://github.com/guodongyangwen/QFLoginSDKDemo.git", :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/QTPaySDK'
 
   s.platform     = :ios, '7.0'
