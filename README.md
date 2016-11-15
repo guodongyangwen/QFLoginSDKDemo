@@ -1,9 +1,5 @@
-# QTPaySDK
+# QFLoginSDK
 
-[![CI Status](http://img.shields.io/travis/Young Shook/QTPaySDK.svg?style=flat)](https://travis-ci.org/Young Shook/QTPaySDK)
-[![Version](https://img.shields.io/cocoapods/v/QTPaySDK.svg?style=flat)](http://cocoadocs.org/docsets/QTPaySDK)
-[![License](https://img.shields.io/cocoapods/l/QTPaySDK.svg?style=flat)](http://cocoadocs.org/docsets/QTPaySDK)
-[![Platform](https://img.shields.io/cocoapods/p/QTPaySDK.svg?style=flat)](http://cocoadocs.org/docsets/QTPaySDK)
 
 ## Usage
 
@@ -11,14 +7,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-QTPaySDK is available through [CocoaPods](http://cocoapods.org). To install
+QFLoginSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "QTPaySDK"
+    pod "QFLoginSDK"
 
 ------
 
-# How to generate QTPaySDK.framework ?
+# How to generate QFloginSDK.framework ?
 
 ## Requirements
 	
@@ -26,10 +22,10 @@ it, simply add the following line to your Podfile:
 
 ##Package
 	
-	pod package QTPaySDK.podspec --force
+	pod package QFloginSDK.podspec --force
 
 ## Author
 
-Young Shook, shook.young@gmail.com
+gdy, guodongyang@qfpay.com
 
 
